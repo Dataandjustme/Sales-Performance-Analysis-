@@ -1,0 +1,147 @@
+TITULO: Análisis de Desempeño de Ventas (Sales Performance Analysis)
+Problema de Negocio
+
+El objetivo de este proyecto fue analizar datos históricos de ventas para identificar tendencias de ingresos, evaluar el desempeño de los productos y comprender las causas detrás de las variaciones en las ventas.
+
+Durante el análisis se detectó una caída significativa en las ventas en el año más reciente. El propósito fue investigar si esta disminución estaba relacionada con cambios en precios, demanda del mercado o factores operativos como la disponibilidad de productos.
+
+El proyecto se centra en desarrollar indicadores clave de desempeño (KPIs) y un dashboard interactivo que permita apoyar la toma de decisiones basada en datos y ofrecer una visión clara del rendimiento comercial.
+
+1.- Dataset
+
+El dataset corresponde a datos de ventas minoristas que contienen registros transaccionales a lo largo de varios años, incluyendo información sobre:
+
+Categorías de productos
+
+Productos individuales
+
+Cantidad vendida
+
+Precio unitario
+
+Descuentos
+
+Costo de los productos
+
+Fechas de transacción
+
+Los datos fueron organizados en un modelo estrella (Star Schema) para facilitar el análisis y la visualización.
+
+2.- Tablas principales utilizadas:
+
+FactSales – datos de transacciones de ventas
+
+DimTime – información temporal (año, mes)
+
+DimProduct – detalles de productos y categorías
+
+3.- Herramientas Utilizadas
+
+Las herramientas empleadas en el desarrollo del proyecto fueron:
+
+Microsoft Excel
+
+Power Query – limpieza y transformación de datos
+
+Tablas dinámicas (Pivot Tables) – análisis exploratorio
+
+DAX (Data Analysis Expressions) – creación de métricas avanzadas
+
+Microsoft Power BI – visualización y diseño del dashboard interactivo
+
+4.- Proceso de Análisis
+1. Limpieza de Datos
+
+Los datos fueron importados a Power Query, donde se realizaron tareas de preparación como:
+
+Validación de tipos de datos
+
+Eliminación de duplicados
+
+Ajuste de columnas necesarias para el análisis
+
+2. Transformación de Datos
+
+Se estructuró la información en un modelo de datos con tablas de hechos y dimensiones, lo que permitió optimizar el análisis mediante relaciones entre tablas.
+
+3. Análisis Exploratorio
+
+Se utilizaron tablas dinámicas para explorar tendencias de ventas considerando:
+
+Años
+
+Meses
+
+Categorías de productos
+
+Productos individuales
+
+Esto permitió detectar variaciones en volumen de ventas y actividad de productos.
+
+4. Creación de KPIs
+
+Se desarrollaron múltiples indicadores clave utilizando DAX y cálculos en Excel, entre ellos:
+
+Net Sales (Ventas Netas)
+
+Gross Margin (Margen Bruto)
+
+Sales Year-over-Year (YoY)
+
+Sales Year-to-Date (YTD)
+
+Average Price (Precio Promedio)
+
+Discounted Sales (Ventas con descuento)
+
+Active Products (Productos Activos)
+
+Lost Revenue (Ingresos potenciales no realizados)
+
+Estos KPIs permitieron comprender con mayor profundidad el desempeño financiero y operativo.
+
+5. Diseño del Dashboard
+
+Se construyó un dashboard interactivo en Power BI para visualizar los resultados del análisis.
+
+El dashboard incluye:
+
+Tarjetas KPI ejecutivas
+
+Tendencia de ventas a lo largo del tiempo
+
+Matriz de desempeño por producto
+
+Análisis de ingresos potenciales perdidos (Lost Revenue)
+
+Filtros interactivos por año, mes y categoría de producto
+
+Principales Insights
+
+Se detectó una caída significativa en las ventas en el año más reciente.
+
+El análisis reveló que la causa principal fue la reducción en la cantidad de productos activos disponibles para la venta.
+
+Los precios, descuentos y márgenes se mantuvieron relativamente estables.
+
+La disminución en el catálogo disponible generó ingresos potenciales no realizados (Lost Revenue).
+
+La gestión del surtido de productos es un factor crítico para mantener el rendimiento de ventas.
+
+6.- Dashboard
+
+El dashboard final en Power BI permite a los usuarios:
+
+Monitorear tendencias de ventas
+
+Identificar productos con bajo desempeño
+
+Analizar el impacto de la disponibilidad de productos
+
+Explorar resultados mediante filtros interactivos
+
+Resultado del Proyecto
+
+Este proyecto demuestra cómo las herramientas de Business Intelligence pueden transformar datos de ventas en información accionable.
+
+A través de la combinación de preparación de datos, desarrollo de KPIs y visualización interactiva, el análisis permite identificar oportunidades de mejora en la gestión del portafolio de productos y apoyar la toma de decisiones estratégicas basadas en datos.
